@@ -44,14 +44,6 @@ Users should be able to:
 
 ## My process
 
-i created a react app using `npx create-react-app`
-i then made a components folder to hold my card, button and content components.
-within the card component, i wrapped a div around props.children, so that any component i wrap the card around it will get the children elements inside the card component.
-i then moved on the styling the card and the content plus the button,
-after i was done with the styling it was now time to make an api call to fetch the data.
-i created a function to fetch the data, then i set it to state, then i created a side effect to load the data when the made loads once.
-i set the data into an empty array and passed the data down through props so i can display them.
-i then created an event to fetch and display new advice any time the a button is clicked
 
 ### Built with
 
