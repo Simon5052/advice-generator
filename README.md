@@ -12,10 +12,9 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
@@ -33,24 +32,19 @@ Users should be able to:
 
 ### Screenshot
 
-![https://cdn.discordapp.com/attachments/810972770535866409/955653656013865000/unknown.png](./screenshot.jpg)
+![image](https://user-images.githubusercontent.com/9645059/159400897-a0d28733-3e1d-42a3-875f-7448419f789e.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [github](https://github.com/Simon5052/advice-generator/tree/feature-sabi-version)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
-i created a react app using `code(npx create-react-app)`
+i created a react app using `npx create-react-app`
 i then made a components folder to hold my card, button and content components.
 within the card component, i wrapped a div around props.children, so that any component i wrap the card around it will get the children elements inside the card component.
 i then moved on the styling the card and the content plus the button,
@@ -67,7 +61,7 @@ i then created an event to fetch and display new advice any time the a button is
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
@@ -79,7 +73,7 @@ const getAdviceData = async () => {
 };
 ```
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+
 
 ### Continued development
 
@@ -90,6 +84,3 @@ I will continue work on how to use async await effectively
 - Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
