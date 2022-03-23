@@ -1,0 +1,45 @@
+.wrapper {
+  height: 80%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  text-transform: uppercase;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 0.5rem;
+  font-size: 10px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.content {
+  color: hsl(193, 38%, 86%);
+  font-size: 20px;
+  font-weight: 800;
+  height: 100%;
+  margin: 0;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.divider {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+img {
+  width: 100%;
+}
+
+.button-wrapper {
+  position: absolute;
+  left: 48%;
+  bottom: -15%;
+  transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
